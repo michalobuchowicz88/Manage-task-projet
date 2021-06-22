@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts :: header">
+
+</head>
+
+<body>
+
+	<nav th:replace="layouts :: navbar"></nav>
+	
+	<br> <br>
+	<p>
+        GENERAL ERROR: <br>
+        General application error.
+         <a class="nav-link" th:href="@{/}">Return to home page</a>
+    </p>
+
+</body>
+
+</html>

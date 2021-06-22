@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts :: header">
+
+</head>
+
+<body>
+
+	<nav th:replace="layouts :: navbar"></nav>
+	
+	<br> <br>
+	<p>
+        The HTTP ERROR 403 FORBIDDEN: <br>
+        Client server understood the request but refuses to authorize it.
+         <a class="nav-link" th:href="@{/}">Return to home page</a>
+    </p>
+
+</body>
+
+</html>

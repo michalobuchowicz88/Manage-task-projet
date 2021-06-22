@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts :: header">
+
+</head>
+
+<body>
+
+	<nav th:replace="layouts :: navbar"></nav>
+	
+	<br> <br>
+	<p>
+        The HTTP ERROR 500 GATEWAY ERROR: <br>
+        Server encountered an unexpected condition that prevented it from fulfilling the request.
+         <a class="nav-link" th:href="@{/}">Return to home page</a>
+    </p>
+
+</body>
+
+</html>

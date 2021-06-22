@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="layouts :: header">
+
+</head>
+
+<body>
+
+	<nav th:replace="layouts :: navbar"></nav>
+	
+	<br> <br>
+	<p>
+        The HTTP ERROR 404 FILE NOT FOUND: <br>
+        The browser was able to communicate with a given server, but the server could not find what was requested. 
+         <a class="nav-link" th:href="@{/}">Return to home page</a>
+    </p>
+
+</body>
+
